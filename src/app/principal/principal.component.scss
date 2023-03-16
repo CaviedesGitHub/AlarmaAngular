@@ -1,0 +1,213 @@
+#img_logosmall{
+  height: 50px;
+  width: 50px;
+  display: inline;
+}
+
+#titulo_principal{
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#divEnlaces{
+  margin-top: 20px;
+  text-align:right;
+}
+
+#enlace1{
+  font-size: 1.5em;
+  color: black;
+}
+
+#enlace2{
+  margin-left:80px;
+  margin-right: 50px;
+  font-size: 1.5em;
+  color: black;
+}
+
+#divLogo{
+  vertical-align:top;
+  width:7%; display:
+  inline-block;
+}
+
+#divTituloPrincipal{
+  width:60%;
+  display: inline-block
+}
+
+#divExtra{
+  width:25%;
+  display: inline-block
+}
+
+#fondo0 {
+  background-image: url("../../assets/images/fondo.jpg");
+  opacity: 0.15;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+#img_logosmall{
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+}
+
+#titulo_principal{
+  text-align: center;
+  font-size: 8em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#fix2{
+  margin-top: 5.0em;
+}
+
+.notificacion{
+  text-align: left;
+  font-size: 4em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#divIcon{
+  align-content: end;
+  text-align: right;
+}
+
+btnAdd{
+  float: right;
+}
+
+#tituloLista{
+  text-align: left;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+thead th:nth-child(1) {
+  width: 18%;
+}
+
+thead th:nth-child(2) {
+  width: 6%;
+}
+
+thead th:nth-child(3) {
+  width: 11%;
+}
+
+thead th:nth-child(4) {
+  width: 24%;
+}
+
+thead th:nth-child(5) {
+  width: 12%;
+}
+
+thead th:nth-child(6) {
+  width: 5%;
+}
+
+thead th:nth-child(7) {
+  width: 7%;
+}
+
+thead th:nth-child(8) {
+  width: 5%;
+}
+
+thead th:nth-child(9) {
+  width: 12%;
+}
+
+th, td {
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+thead th, tfoot th, tfoot td {
+  background: #FFB5CB; // linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.5));
+  font-weight: bold;
+  text-align: center;
+  //border: 3px solid #EECFE9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #EECFE9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFB5CB;
+}
+
+table {
+  background-color: #FFB5CB;
+}
+
+#fila_cab1{
+  padding: 40px 40px 40px 40px;
+}
+
+#fila_cab2{
+  padding: 0px 40px 40px 40px;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+tr{
+  height: 4em;
+}
+
+.btnAcc{
+  width: 45%;
+  margin: 2%;
+}
+
+.activo{
+  color:white;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.inactivo{
+  color:white;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.centrada{
+  text-align: center;
+}
+
+.diaActivo{
+  color:black;
+  background-color: red;
+  margin-left: 13px;
+  font-size: 1.0em;
+}
+
+.diaInactivo{
+  color:white;
+  background-color: beige;
+  margin-left: 13px;
+  font-size: 1.0em;
+}
+

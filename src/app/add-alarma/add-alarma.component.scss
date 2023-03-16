@@ -1,0 +1,338 @@
+#img_logosmall{
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+}
+
+#titulo_principal{
+  text-align: center;
+  font-size: 8em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#tabla_cab{
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#fila_cab{
+  display: table-row;
+  padding: 0;
+  margin: 0;
+}
+
+.containerDer{
+  align-content: center;
+  text-align: center;
+  display: table;
+  width: 80%;
+  height:500px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #EECFE9;
+  padding: 30px 75px 75px 30px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #0000FF;
+}
+
+#divImgIzq{
+  width: 30%;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+#divImgDer{
+  width: 70%;
+  max-width: 70%;
+  min-width: 70%;
+}
+
+.celda{
+  border-style: none;
+  display: table-cell;
+  padding: 0;
+  margin: 0;
+  height: 82vh;
+
+}
+
+#celda1{
+  background-color: inherit;
+  width: 58%;
+  max-width: 58%;
+  min-width: 58%;
+  padding: 0em;
+  overflow: hidden;
+  font-size: 9pt;
+
+  text-align: center;
+  vertical-align:middle;
+
+  padding-left:20px;
+  vertical-align:top;
+  padding-top:25px;
+}
+
+#celdaEspacio{
+  background-color: inherit;
+  width: 4%;
+  max-width: 4%;
+  min-width: 4%;
+  vertical-align: middle;
+  align-content: center;
+
+  padding: 0.0em 0.3em;
+  margin: 0;
+}
+
+#celda2{
+  background-color: inherit;
+  width: 38%;
+  max-width: 38%;
+  min-width: 38%;
+  vertical-align: middle;
+  align-content: center;
+
+  padding: 0.0em 0.3em;
+  margin: 0;
+}
+
+.linea{
+  display:block;
+}
+
+#containerDatos{
+  background-color: #EECFE9;
+  padding: 30px 50px 50px 30px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #0000FF;
+  margin-top:0;
+}
+
+#imgBien{
+  width: 25em;
+  height: 25em;
+}
+
+#imgCancelar{
+  width: 10em;
+  height: 10em;
+  margin-right: 3em;
+}
+
+.txtCampo{
+  margin-bottom: 5px;
+  height: 2.5em;
+  font-size: 2em;
+  background-color: #FFB5CB;
+  width:100%;
+}
+
+.lblCampo{
+  font-size: 2em;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.TituloCrear{
+  text-align: left;
+  color: black;
+  font-size: 4em;
+  font-weight: bold;
+  height: 1.5em;
+  vertical-align: text-bottom;
+  margin:0;
+  padding:0;
+}
+
+.content1{
+  vertical-align:top;
+}
+
+#fix2{
+  margin-top: 5.0em;
+}
+
+#fix3{
+  margin-top: 0em;
+}
+
+#fondo0 {
+  background-image: url("../../assets/images/fondo.jpg");
+  opacity: 0.15;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+#divEnlaces{
+  text-align:right;
+}
+
+#enlace1{
+  font-size: 1.5em;
+  color: black;
+}
+
+#enlace2{
+  margin-left:80px;
+  margin-right: 50px;
+  font-size: 1.5em;
+  color: black;
+}
+
+#divLogo{
+  vertical-align:top;
+  width:7%; display:
+  inline-block;
+}
+
+#divTituloPrincipal{
+  width:60%;
+  display: inline-block
+}
+
+#divExtra{
+  width:25%;
+  display: inline-block
+}
+
+
+.divFila{
+  margin: 0px 0px 15px 0px;
+  vertical-align:top;
+  text-align: left;
+  width:100%;
+  display: inline-block
+}
+
+.divCelda{
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  display: inline-block
+}
+
+#celdaFecha{
+  width:34%;
+}
+
+#celdaHora{
+  width:24%;
+}
+
+#celdaFechaFin{
+  width:34%;
+}
+
+#celdaCancelar{
+  width:47%;
+}
+
+#celdaPosponer{
+  width:47%;
+}
+
+.divCampo{
+   display:inline-block;
+}
+
+#divCampoFecha{
+  width:81%;
+}
+
+#divCampoHora{
+  width:74%;
+}
+
+#divCampoFechaFin{
+  width:81%;
+}
+
+#divCampoUbicacion{
+  width:93.7%;
+}
+
+#divCampoSonido{
+  width:93.7%;
+}
+
+#divCampoCancelar{
+  width:86.5%;
+}
+
+#divCampoPosponer{
+  width:87%;
+}
+
+.divBoton{
+  vertical-align:top;
+  display:inline-block
+}
+
+#divBotonFecha{
+  width:17%;
+}
+
+#divBotonHora{
+  width:20%;
+}
+
+#divBotonFechaFin{
+  width:17%;
+}
+
+#divBotonUbicacion{
+  width:5%;
+}
+
+#divBotonSonido{
+  width:5%;
+}
+
+#divBotonCancelar{
+  width:12%;
+}
+
+#divBotonPosponer{
+  width:12%;
+}
+
+.btnHelp{
+  height:59px;
+  font-size:3em;
+}
+
+#celdaRelleno1{
+  width:4%;
+}
+
+#celdaRelleno2{
+  width:4%;
+}
+
+#celdaRelleno3{
+  width:6%;
+}
+
+.enlaces{
+  color: black;
+}
+
+.celdaEnlaces{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.celdaImagen{
+  vertical-align: bottom;
+  text-align: center;
+}

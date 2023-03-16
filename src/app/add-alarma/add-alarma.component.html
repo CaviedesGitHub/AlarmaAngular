@@ -1,0 +1,156 @@
+<header>
+  <nav>
+  </nav>
+  <div id="divEnlaces" >
+    <div>
+      <a id="enlace1" class="enlaces" routerLink="/login" >Configurar</a>
+      <a id="enlace2" class="enlaces" routerLink="/login" >Salir</a>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div id="divLogo" >
+        <div>
+          <img id="img_logosmall" src="../../assets/images/lgo.png" />
+        </div>
+      </div>
+
+      <div id="divTituloPrincipal" >
+        <p id="fix2"></p>
+        <H1 id="titulo_principal">MI ALARMA</H1>
+      </div>
+
+      <div id="divExtra">
+      </div>
+    </div>
+  </div>
+
+</header>
+<main id="tabla_cab">
+  <aside>
+  </aside>
+  <section id="fila_cab">
+    <div class="celda" id="celda1">
+      <p id="fix3"></p>
+      <h2 class="TituloCrear"> Crear Alarma </h2>
+      <div id="containerDatos">
+        <div class="divFila" >
+          <div id="celdaFecha" class="divCelda" >
+            <label class="linea lblCampo" for="txtfecha">Fecha</label>
+            <div id="divCampoFecha" class="divCampo" >
+              <input class="txtCampo" id="txtfecha" type="text" />
+            </div>
+            <div id="divBotonFecha" class="divBoton" >
+              <button class="btnHelp" mat-raised-button color="accent" >></button>
+            </div>
+          </div>
+          <div id="celdaRelleno1" class="divCelda" >
+
+          </div>
+          <div id="celdaHora" class="divCelda" >
+            <label class="linea lblCampo" for="txthora">Hora</label>
+            <div id="divCampoHora" class="divCampo" >
+              <input class="txtCampo" id="txthora" type="text" />
+            </div>
+            <div id="divBotonHora" class="divBoton" >
+              <button  class="btnHelp" mat-raised-button color="accent" >></button>
+            </div>
+          </div>
+          <div id="celdaRelleno2" class="divCelda" >
+
+          </div>
+          <div id="celdaFechaFin" class="divCelda" >
+            <label class="linea lblCampo" for="txtfechafin">Fecha Final</label>
+            <div id="divCampoFechaFin" class="divCampo" >
+              <input class="txtCampo" id="txtfechafin" type="text" />
+            </div>
+            <div id="divBotonFechaFin" class="divBoton" >
+              <button class="btnHelp" mat-raised-button color="accent">></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="divFila" >
+          <label class="linea lblCampo" for="txtnombre">Nombre</label>
+          <input class="linea txtCampo" id="txtnombre" type="text" />
+        </div>
+
+        <div class="divFila" >
+          <label class="linea lblCampo" for="txtubicacion">Ubicación</label>
+          <div id="divCampoUbicacion" class="divCampo" >
+            <input class="linea txtCampo" id="txtubicacion" type="text" />
+          </div>
+          <div id="divBotonUbicacion" class="divBoton" >
+            <button class="btnHelp" mat-raised-button color="accent" >></button>
+          </div>
+        </div>
+
+        <div class="divFila" >
+          <label class="linea lblCampo" for="txtsonido">Sonido</label>
+          <div id="divCampoSonido" class="divCampo">
+            <input class="linea txtCampo" id="txtsonido" type="text" />
+          </div>
+          <div id="divBotonSonido" class="divBoton" >
+            <button  class="btnHelp" mat-raised-button color="accent" >></button>
+          </div>
+        </div>
+
+        <div>
+          <div id="celdaCancelar" class="divCelda" >
+            <label class="linea lblCampo" for="txtcancelar">Cancelar</label>
+            <div id="divCampoCancelar" class="divCampo" >
+              <input class="txtCampo" id="txtcancelar" type="text"  />
+            </div>
+            <div id="divBotonCancelar" class="divBoton" >
+              <button class="btnHelp" mat-raised-button color="accent" >></button>
+            </div>
+          </div>
+          <div id="celdaRelleno3" class="divCelda" >
+
+          </div>
+          <div id="celdaPosponer" class="divCelda" >
+            <label class="linea lblCampo" for="txtposponer">Posponer</label>
+            <div id="divCampoPosponer" class="divCampo" >
+              <input class="txtCampo" id="txtposponer" type="text" />
+            </div>
+            <div id="divBotonPosponer" class="divBoton" >
+              <button class="btnHelp" mat-raised-button color="accent" >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="celda" id="celdaEspacio">
+
+    </div>
+    <div class="celda" id="celda2">
+      <div class="containerDer">
+        <table >
+          <tr>
+            <td class="celdaImagen" >
+              <a routerLink="/alarmas"><img id="imgCancelar" src="../../assets/images/Cancelar.png" /></a>
+            </td>
+            <td class="celdaImagen" >
+              <a routerLink="/alarmas"><img id="imgBien" src="../../assets/images/Bien.png" /> </a>
+            </td>
+          </tr>
+          <tr>
+            <td class="celdaEnlaces" >
+              <a class="enlaces" routerLink="/alarmas" >Cancelar</a>
+            </td>
+            <td class="celdaEnlaces" >
+              <a class="enlaces" routerLink="/alarmas" >Guardar</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <div id="fondo0">
+  </div>
+</main>
+<footer>
+</footer>
+
+
+

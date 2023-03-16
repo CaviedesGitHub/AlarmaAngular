@@ -1,0 +1,121 @@
+<header>
+  <nav>
+  </nav>
+  <div id="divEnlaces" >
+    <div>
+      <a id="enlace1" class="enlaces" routerLink="/login" >Configurar</a>
+      <a id="enlace2" class="enlaces" routerLink="/login" >Salir</a>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div id="divLogo" >
+        <div>
+          <img id="img_logosmall" src="../../assets/images/lgo.png" />
+        </div>
+      </div>
+
+      <div id="divTituloPrincipal" >
+        <p id="fix2"></p>
+        <H1 id="titulo_principal">MI ALARMA</H1>
+      </div>
+
+      <div id="divExtra">
+      </div>
+    </div>
+  </div>
+
+</header>
+<main id="tabla_cab">
+  <aside>
+  </aside>
+  <section id="fila_cab1">
+    <div>
+      <label class="notificacion">La próxima Alarma sonara en 8 horas</label>
+    </div>
+    <div id="divIcon">
+      <button id="btnAdd" mat-fab color="warn"  routerLink="/alarmas/adicionar" aria-label="Boton adicionar Alarma">
+        <mat-icon>plus_one</mat-icon>
+      </button>
+    </div>
+  </section>
+  <section id="fila_cab2">
+    <label id="tituloLista">Lista de Alarmas</label>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Nombre
+          </th>
+          <th>
+            Hora
+          </th>
+          <th>
+            Fecha
+          </th>
+          <th>
+            Repite
+          </th>
+          <th>
+            Fecha Fin
+          </th>
+          <th>
+            Sonido
+          </th>
+          <th>
+            Ubicación
+          </th>
+          <th>
+            Activa
+          </th>
+          <th>
+            Acciones
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let alarma of lstAlarmas">
+          <td>
+            {{alarma.nombre}}
+          </td>
+          <td>
+            {{alarma.hora}}
+          </td>
+          <td>
+            {{alarma.fecha}}
+          </td>
+          <td class="centrada">
+            <button class="diaInactivo" mat-mini-fab disabled color="warn" aria-label="Dia Alarma">D</button>
+            <button class="diaActivo" mat-mini-fab color="warn" aria-label="Dia Alarma">L</button>
+            <button class="diaActivo" mat-mini-fab color="warn" aria-label="Dia Alarma">M</button>
+            <button class="diaInactivo" mat-mini-fab disabled color="warn" aria-label="Dia Alarma">M</button>
+            <button class="diaActivo" mat-mini-fab color="warn" aria-label="Dia Alarma">J</button>
+            <button class="diaActivo" mat-mini-fab color="warn" aria-label="Dia Alarma">V</button>
+            <button class="diaInactivo" mat-mini-fab disabled color="warn" aria-label="Dia Alarma">S</button>
+          </td>
+          <td>
+            {{alarma.fecha_fin}}
+          </td>
+          <td>
+            {{alarma.sonido}}
+          </td>
+          <td class="centrada">
+            <mat-icon [className]="alarma.ubicacion=='Si' ? 'activo' : 'inactivo' ">check</mat-icon>
+          </td>
+          <td class="centrada">
+            <mat-slide-toggle [checked]=alarma.activa></mat-slide-toggle>
+          </td>
+          <td>
+            <button class="btnAcc" mat-raised-button color="warn">Editar</button>
+            <button class="btnAcc" mat-raised-button color="warn">Elim</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <div id="fondo0">
+  </div>
+</main>
+<footer>
+</footer>
+

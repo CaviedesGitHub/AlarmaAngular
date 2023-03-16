@@ -1,0 +1,79 @@
+[
+  {
+    "id": "001",
+    "nombre": "Recoger a los Niños",
+    "hora": "7:00pm",
+    "fecha": "2023/Febrero/01",
+    "repite": "0111110",
+    "fecha_fin": "2023/Noviembre/30",
+    "sonido": "Música",
+    "ubicacion": "Si",
+    "activa": true
+  },
+  {
+    "id": "002",
+    "nombre": "Gimnasio",
+    "hora": "8:00pm",
+    "fecha": "2023/Febrero/01",
+    "repite": "0111111",
+    "fecha_fin": "2023/Agosto/01",
+    "sonido": "Música",
+    "ubicacion": "Si",
+    "activa": true
+  },
+  {
+    "id": "003",
+    "nombre": "Despertarse",
+    "hora": "6:00am",
+    "fecha": "2023/Enero/28",
+    "repite": "0111110",
+    "fecha_fin": "2023/Diciembre/30",
+    "sonido": "Música",
+    "ubicacion": "No",
+    "activa": false
+  },
+  {
+    "id": "004",
+    "nombre": "Medicina",
+    "hora": "12:30pm",
+    "fecha": "2023/Marzo/15",
+    "repite": "1111111",
+    "fecha_fin": "2023/Marzo/22",
+    "sonido": "Tono",
+    "ubicacion": "No",
+    "activa": false
+  },
+  {
+    "id": "005",
+    "nombre": "Recoger a los Niños",
+    "hora": "7:00pm",
+    "fecha": "2023/Febrero/01",
+    "repite": "0111110",
+    "fecha_fin": "2023/Noviembre/30",
+    "sonido": "Música",
+    "ubicacion": "Si",
+    "activa": true
+  },
+  {
+    "id": "006",
+    "nombre": "Gimnasio",
+    "hora": "8:00pm",
+    "fecha": "2023/Febrero/01",
+    "repite": "0111111",
+    "fecha_fin": "2023/Agosto/01",
+    "sonido": "Música",
+    "ubicacion": "Si",
+    "activa": true
+  },
+  {
+    "id": "007",
+    "nombre": "Despertarse",
+    "hora": "6:00am",
+    "fecha": "2023/Enero/28",
+    "repite": "0111110",
+    "fecha_fin": "2023/Diciembre/30",
+    "sonido": "Música",
+    "ubicacion": "No",
+    "activa": false
+  }
+]
